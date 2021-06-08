@@ -18,6 +18,6 @@ function calcular() {
     document.getElementById('resultado').innerHTML = eval(inserido);
   }
   else {
-    document.getElementById('resultado').innerHTML = "Erro de Input";
+    document.getElementById('resultado').innerHTML = "Error";
   }
 }
